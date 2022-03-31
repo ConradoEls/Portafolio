@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+*{
+box-sizing: border-box;
+margin: 0;
+}
+
+body{
+font-family: 'Be Vietnam Pro', sans-serif;
+background-image: url('../img/bg-tablet-pattern.svg'), url('../img/bg-tablet-pattern.svg');
+background-size: auto;
+background-position: 50vw -4vh, -25vw 160vh;
+background-repeat:no-repeat;
+}
+
+header h1{
+display:none
+}
+
+header .button{
+border-radius: 35px;
+border: none;
+color: rgb(249, 249, 249);
+background-color: rgb(242, 95, 58);
+padding: 15px 35px 15px 35px;
+box-shadow: 0px 2px 6px 0px grey;
+font-size: 14px;
+font-weight: 600;
+transition: all 0.4s;
+}
+
+.button:hover{
+background-color: rgb(245, 126, 96);
+}
+
+header div.menutop{
+display: flex;
+justify-content: space-between  ;
+align-items: center;
+padding: 75px 165px;
+width: 100vw;
+}
+
+header div.menutop img.logo{
+transition: all 0.4s; 
+}
+
+header div.menutop img.logo:hover{
+transform: scale(1.2);
+}
+
+header div.menutop img.menu{
+display: none;
+}
+
+header div.menutop nav ul{
+display: flex;
+list-style-type: none;
+padding: 0;
+}
+
+header div.menutop nav ul li a{
+text-decoration: none;
+color: rgb(35, 44, 81);
+font-size: 13px;
+margin-left: 28px;
+transition: all 0.4s;
+}
+
+header div.menutop nav ul li a:hover{
+color: #B3B2B7;
+}
+
+main .button{
+border-radius: 35px;
+border: none;
+color: rgb(249, 249, 249);
+background-color: rgb(242, 95, 58);
+padding: 15px 35px 15px 35px;
+box-shadow: 0px 2px 8px 0px rgb(242, 95, 58);
+font-size: 14px;
+font-weight: 600;
+transition: all 0.4s;
+}
+
+main .button:hover{
+background-color: rgb(245, 126, 96);
+}
+
+main button.buttonwhite{
+border-radius: 35px;
+border: none;
+color: rgb(242, 95, 58);
+background-color: white;
+padding: 15px 35px 15px 35px;
+box-shadow: 0px 1px 10px 0px rgb(66, 66, 66);
+font-size: 14px;
+font-weight: 600;
+transition: all 0.4s;
+}
+
+main button.buttonwhite:hover{
+background-color: rgb(240, 239, 239);
+color: rgb(245, 126, 96);
+}
+
+main section.home{
+display: flex;
+height: calc(100vh - 174px);
+width: 100vw;
+padding: 0 165px;
+}
+
+main section.home article.text{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: flex-start;
+width: 50vw;
+}
+
+main section.home article.text h4{
+font-weight: 600;
+font-size: 58px;
+color: rgb(35, 44, 81);
+}
+
+main section.home article.text p{
+font-weight: 400;
+font-size: 16px;
+padding-right: 200px;
+}
+
+main section.home article.graph{
+width: 50vw;
+}
+
+main section.sobrenos{
+display: flex;
+justify-content: space-between;
+height: 100vh;
+width: 100vw;
+padding: 0 165px;
+margin-top: 100px;
+}
+
+main section.sobrenos div.int{
+display: flex;
+flex-direction: column;
+width: 50vw;
+}
+
+main section.sobrenos div.int h4{
+font-weight: 600;
+font-size: 36px;
+color: rgb(35, 44, 81);
+
+}
+
+main section.sobrenos div.int p{
+font-weight: 400;
+font-size: 16px;
+padding-top: 40px;
+padding-right: 230px;
+}
+
+main section.sobrenos div.ext{
+display: flex;
+flex-direction: column;
+width: 50vw;
+justify-content: space-evenly;
+height: 550px;
+}
+
+main section.sobrenos div.ext p{
+color: #B3B2B7;
+font-weight: 400;
+font-size: 16px;
+padding: 0px 25px 0px 88px;
+}
+
+main section.sobrenos div.ext div.title{
+display: flex;
+align-items: center;
+}
+
+main section.sobrenos div.ext div.title p{
+color: rgb(35, 44, 81);
+font-weight: 600;
+font-size: 16px;
+padding-left: 25px;
+}
+
+main section.sobrenos div.ext div.title span{
+background-color: rgb(242, 95, 58); 
+padding: 11px 22px 11px 22px;
+border-radius: 35px;
+color: white;
+font-weight: 700;
+font-size: 16px;
+}
+
+main section.testimonios{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+height: 100vh;
+width: 100vw;
+padding: 0 71px;
+}
+
+main section.testimonios article h4{
+color: rgb(35, 44, 81);
+font-weight: 600;
+font-size: 39px;
+}
+
+main section.testimonios article.comentarios{
+background-color: rgb(249, 249, 249);
+display: flex;
+justify-content: space-evenly;
+height: 220px;
+position: relative;
+}
+
+main section.testimonios article.comentarios div{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-end;
+position: relative;
+margin-bottom: 20px;
+}
+
+main section.testimonios article.comentarios div img{
+width: 70px;
+position: absolute;
+bottom: 165px;
+}
+
+main section.testimonios article.comentarios div span{
+color: rgb(35, 44, 81);
+font-weight: 700;
+font-size: 16px;
+position: absolute;
+top: 56px;
+}
+
+main section.testimonios article.comentarios div p{
+color: rgb(143, 148, 167);
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+padding: 0px 28px 0 21px;
+}
+
+main section.inscripcion{
+background-color: rgb(242, 95, 58);
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 165px;
+width: 100vw;
+height: 224px;
+}
+
+main section.inscripcion p{
+color: white;
+font-weight: 600;
+font-size: 40px;
+width: 470px;
+height: 96px;
+}
+
+footer section{
+background-color: rgb(29, 30, 37);
+display: flex;
+justify-content: space-evenly;
+height: 247px;
+width: 100vw;
+}
+
+footer section div.logos img{
+transition: all 0.4s; 
+}
+
+footer section div.logos img:hover{
+transform: scale(1.2);
+}
+
+footer section div.logos{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+
+footer section div.logos div i{
+color: white;
+font-size: 20px;
+width: 28px;
+transition: all 0.4s;
+}
+
+footer section div.logos div i:hover{
+color: rgb(242, 95, 58);
+}
+
+footer section div.menu{
+display: flex;
+padding: 45px 0px;
+align-items: flex-start;
+justify-content: space-between;
+width: 450px;
+}
+
+footer section div.menu ul{
+padding: 0;
+}
+
+footer section div.menu ul li{
+list-style-type: none;
+font-size: 16px;
+font-weight: 200;
+margin: 14px 0px;
+}
+
+footer section div.menu ul li a{
+color: white;
+text-decoration: none;
+transition: all 0.4s;
+}
+
+footer section div.menu ul li a:hover{
+color: rgb(242, 95, 58);
+}
+
+footer section div.email{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: flex-end;
+}
+
+footer section div.email input{
+border-radius: 30px;
+padding: 11px 48px 11px 10px;
+border: none;
+}
+
+footer section div.email input.buttongo{
+border-radius: 35px;
+border: none;
+color: rgb(249, 249, 249); 
+background-color: rgb(242, 95, 58);
+padding: 11px 22px 11px 22px;
+font-size: 13px;
+font-weight: 600;
+transition: all 0.4s;
+}
+
+footer section div.email input.buttongo:hover{
+background-color: rgb(245, 126, 96);
+}
+
+footer section div.email p{
+font-size: 12px;
+color: #8C8C94;
+}
+
+@media (max-width: 375px){
+
+header div.menutop{
+justify-content: space-around;
+padding: 50px 10px;
+}
+
+header div.menutop nav{
+display: none;
+}
+
+header div.menutop a{
+display: none;
+}
+
+header div.menutop img.menu{
+display: block;
+}
+
+main section.home{
+display: flex;
+flex-direction: column-reverse;
+padding: 0;
+width: 100vw;
+height: auto;
+}
+
+main section.home article.text{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+width: 100vw;
+height: 350px;
+}
+
+main section.home article.text h4{
+padding: 0;
+text-align: center;
+font-weight: 600;
+font-size: 38px;
+}
+
+main section.home article.text p{
+padding: 0;
+text-align: center;
+color: #B3B2B7;
+font-weight: 300;
+font-size: 14px;
+padding: 0 40px;
+}
+
+main section.home article.graph{
+width: 100vw;
+}
+
+main section.home article.graph img{
+width: 100vw;
+padding: 0 40px;
+}
+
+main section.sobrenos{
+flex-direction: column;
+padding: 0;
+margin: 0;
+width: 100vw;
+height: auto;
+}
+
+main section.sobrenos div.int{
+width: 100vw;
+justify-content: space-evenly;
+align-items: center;
+height: 200px;
+margin-top: 40px;
+}
+
+main section.sobrenos div.int h4{
+font-weight: 600;
+font-size: 26px;
+padding: 0 60px;
+text-align: center;
+}
+
+main section.sobrenos div.int p{
+color: #B3B2B7;
+font-weight: 300;
+font-size: 14px;
+padding: 0 40px;
+text-align: center;
+}
+
+main section.sobrenos div.ext{
+flex-direction: column;
+justify-content: space-evenly;
+height: 550px;
+width: 100vw;
+}
+
+main section.sobrenos div.ext p{
+color: #B3B2B7;
+font-weight: 400;
+font-size: 14px;
+padding: 0 20px;
+}
+
+main section.sobrenos div.ext div.title{
+align-items: center;
+background-color: rgb(255, 239, 234);
+border-top-left-radius: 35px;
+border-bottom-left-radius: 35px;
+margin-left: 10px;
+width: 100vw;
+}
+
+main section.sobrenos div.ext div.title p{
+font-weight: 600;
+font-size: 13px;
+padding: 0 0 0 10px;
+}
+
+main section.sobrenos div.ext div.title span{
+padding: 7px 22px 7px 22px;
+}
+
+main section.testimonios{
+flex-direction: column;
+align-items: center;
+height: 600px;
+width: 100vw;
+padding: 0 15px;
+}
+
+main section.testimonios article h4{
+font-weight: 700;
+font-size: 29px;
+text-align: center;
+}
+
+main section.testimonios article.comentarios div:nth-of-type(odd){
+display: none;
+}
+
+main section.testimonios article.comentarios div p{
+font-weight: 400;
+font-size: 16px;
+padding: 0px 28px 0 21px;
+}
+
+main section.inscripcion{
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+padding: 0;
+width: 100vw;
+height: 370px;
+}
+
+main section.inscripcion p{
+font-weight: 600;
+font-size: 33px;
+width: 100vw;
+text-align: center;
+padding: 0 45px;
+}
+
+footer section{
+flex-direction: column-reverse;
+justify-content: space-evenly;
+height: 560px;
+width: 100vw;
+position: relative;
+}
+
+footer section div.logos{
+flex-direction: column-reverse;
+justify-content: space-between;
+align-items: center;
+height: 120px;
+}
+
+footer section div.logos div a i{
+font-size: 40px;
+text-align: center;
+margin: 0 20px;
+}
+
+footer section div.menu{
+padding: 0;
+justify-content: space-evenly;
+width: 100vw;
+}
+
+footer section div.email{
+align-items: center;
+}
+
+footer section div.email input{
+padding: 11px 55px 11px 10px;
+}
+
+footer section div.email input.buttongo{
+padding: 11px 25px;
+}
+
+footer section div.email p{
+text-align: center;
+position: absolute;
+bottom: 20px;
+}
+}
