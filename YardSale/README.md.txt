@@ -1,0 +1,1 @@
+Aqui lo que implemente es un pequeño e-commerce en la que en 1.0 base el uso de HTML y CSS. Ya en 2.0 implemente JS vanilla, aplicando manipulación del DOM como tópico principal.

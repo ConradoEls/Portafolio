@@ -1,0 +1,1 @@
+Este proyectito lo hice con base pura en HTML y CSS, no incorpora JS ya que la finalidad era comprender a profundidad las bases de la maquetación web. 
